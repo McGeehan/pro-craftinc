@@ -1,0 +1,210 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+
+This above imports a font....
+
+
+Our unordered list  for navigation has a paper style background. I'll probably used that as the background color on the other pages, but I'm not sure yet....
+
+*/ 
+
+#nav ul{
+  width: 490px;
+  height: 64px;
+  border: 3px solid rgb(51, 51, 51);
+  background: rgba(230, 232, 203, 0.4);
+  border-radius: 10px;
+  margin: 30px auto; /* what is this doing? */
+  box-shadow:3px 3px 0px rgba(154, 172, 159, 1);
+
+}
+
+
+
+#nav li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  font-family: fontawesome, sans-serif; /* here is our custom font in all its glory */
+  font-size: 30px;
+  color: rgb(51, 51, 51);
+  position: relative;
+  top: 27%;
+  margin-right: 20px;
+  left: 23px;
+  text-shadow: none;
+  transition: text-shadow 1s ease;
+}
+
+a:hover {
+  text-shadow:3px 3px 0px rgba(154, 172, 159, 1); /*Make the hover a different color here....*/
+  transition: text-shadow 1s ease-in-out;
+}
+
+/*ABOUT.HTML */
+
+#aboutpara {
+  width: 490px;
+  height:240px;
+  border: 3px solid rgb(51, 51, 51);
+  border-radius: 10px;
+  background: rgba(230, 232, 203, 0.4);
+  background: rgba(230, 232, 203, 0.4);
+  border-radius: 10px;
+  margin: 30px auto; /* what is this doing? */
+  box-shadow:3px 3px 0px rgba(154, 172, 159, 1);
+ font-family: fontawesome, sans-serif;
+  }
+  
+  #aboutpara p {
+   display: inline-block;  
+  text-decoration: none;
+  font-family: fontawesome, sans-serif; /* here is our custom font in all its glory */
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  position: relative;
+  margin-top: 10px;
+  margin-right: 20px;
+  left: 23px;
+  text-shadow: none;
+  transition: text-shadow 1s ease;
+}
+  
+  #aboutpara ul {
+    text-decoration: none;
+  font-family: fontawesome, sans-serif; /* here is our custom font in all its glory */
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  position: relative;
+  margin-top: 10px;
+  margin-right: 20px;
+  left: 60px;
+  text-shadow: none;
+  transition: text-shadow 1s ease;
+}
+
+#roundedcorner {
+border-radius: 30%;
+background: rgba(230, 232, 203, 0.4);
+opacity: 0.2;
+display: block;
+margin: 0 auto;
+}
+
+#themillpara {
+  width: 490px;
+  height:330px;
+  border: 3px solid rgb(51, 51, 51);
+  border-radius: 10px;
+  background: rgba(230, 232, 203, 0.4);
+  background: rgba(230, 232, 203, 0.4);
+  border-radius: 10px;
+  margin: 30px auto; /* what is this doing? */
+  box-shadow:3px 3px 0px rgba(154, 172, 159, 1);
+ font-family: fontawesome, sans-serif;
+  }
+  
+  #themillpara p {
+   display: inline-block;  
+  text-decoration: none;
+  font-family: fontawesome, sans-serif; /* here is our custom font in all its glory */
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  position: relative;
+  margin-top: 10px;
+  margin-right: 20px;
+  left: 23px;
+  text-shadow: none;
+  transition: text-shadow 1s ease;
+}
+
+ 
+ 
+ 
+ form    {
+ width: 490px;
+  height: 380px;
+  border: 3px solid rgb(51, 51, 51);
+  background: rgba(230, 232, 203, 0.4);
+  border-radius: 10px;
+  margin: 30px auto; /* what is this doing? */
+  box-shadow:3px 3px 0px rgba(154, 172, 159, 1);
+ font-family: fontawesome, sans-serif;
+   font-size: 18px;
+ padding: 10px 10px 10px 10px;
+text-decoration: none;
+
+}
+
+input    {
+width:375px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+textarea#feedback {
+width:375px;
+height:150px;
+}
+
+textarea.message {
+display:block;
+}
+
+input.button {
+width:100px;
+position:absolute;
+right:20px;
+bottom:20px;
+background:#09C;
+color:#fff;
+font-family: Tahoma, Geneva, sans-serif;
+height:30px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+border: 1p solid #999;
+}
+input.button:hover {
+background:#fff;
+color:#09C;
+}
+
+textarea:focus, input:focus {
+border: 1px solid #09C;
+}
+
+#thankyoupara p {
+  width: 490px;
+  height: 30px;
+  border: 3px solid rgb(51, 51, 51);
+  background: rgba(230, 232, 203, 0.4);
+  border-radius: 10px;
+  margin: 30px auto; /* what is this doing? */
+  box-shadow:3px 3px 0px rgba(154, 172, 159, 1);
+ font-family: fontawesome, sans-serif;
+   font-size: 18px;
+ padding: 10px 10px 10px 10px;
+ }
+ 
+ #roundedcorner2 {
+border-radius: 3%;
+background: rgba(230, 232, 203, 0.4);
+opacity: 0.7;
+display: block;
+  box-shadow:3px 3px 0px rgba(154, 172, 159, 1);
+  border: 3px solid rgb(51, 51, 51);
+  width: 500px;
+  margin: 0 0 30px 0;
+}
